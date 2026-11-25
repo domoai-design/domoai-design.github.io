@@ -1,0 +1,46 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/318vd_uhd1odi.js"
+3:I[46912,["$2"],"default"]
+4:I[1384,["$2"],"default"]
+8:"/_next/static/chunks/2dzaqtdh8l43l.js"
+9:"/_next/static/chunks/137w225v8ub7l.js"
+a:"/_next/static/chunks/11qomxq_wf1bq.js"
+b:I[70328,["$2","$8","$9","$a"],"Sidebar"]
+c:I[28206,["$2","$8","$9","$a"],"Toc"]
+14:"/_next/static/chunks/2f5359et898au.js"
+15:I[12958,["$2","$8","$9","$a","$14"],"CodeBlock"]
+1e:"ViewportBoundary"
+1f:I[96559,["$2"],"$1e"]
+20:"MetadataBoundary"
+21:I[96559,["$2"],"$20"]
+22:"$Sreact.suspense"
+23:I[78936,["$2"],"IconMark"]
+:HL["/_next/static/chunks/2v9xvkzzw385g.css","style"]
+:HL["/_next/static/chunks/20d-6pqvf3sop.css","style"]
+6:X
+10:X
+10:C
+13:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[[["$","header",null,{"className":"flex flex-col gap-3 pb-2","children":[["$","div",null,{"className":"flex flex-col-reverse gap-4 md:flex-row md:items-start md:justify-between","children":[["$","h1",null,{"className":"typo-heading-36-700 text-foreground","children":"安装与使用"}],null]}],["$","p",null,{"className":"typo-body-16-400 text-foreground-tertiary","children":"在 DomoAI 的 Next.js 项目中接入设计系统（给工程师看）。"}],"$undefined"]}],["$","h2",null,{"id":"css","className":"mt-8 scroll-mt-20 typo-heading-24-500 text-foreground","children":"1. 引入样式"}],["$","p",null,{"className":"typo-body-14-400 text-foreground-secondary","children":"在 app/globals.css 中只需要一行："}],["$","$L15",null,{"code":"@import \"@domoai/ui/styles.css\";"}],["$","h2",null,{"id":"fonts","className":"mt-8 scroll-mt-20 typo-heading-24-500 text-foreground","children":"2. 加载字体"}],["$","$L15",null,{"code":"import { Host_Grotesk, Instrument_Serif, Roboto_Mono } from \"next/font/google\";\n\nconst sans = Host_Grotesk({ subsets: [\"latin\"], variable: \"--font-sans-loaded\" });\nconst display = Instrument_Serif({ subsets: [\"latin\"], weight: \"400\", variable: \"--font-display-loaded\" });\nconst mono = Roboto_Mono({ subsets: [\"latin\"], variable: \"--font-mono-loaded\" });\n\n// <html className={`dark ${sans.variable} ${display.variable} ${mono.variable}`} data-theme=\"dark\">"}],"$L16","$L17","$L18","$L19","$L1a"],["$L1b"],"$L1c"]}],"p":"$@1d","v":null,"s":"$6"}}]]
+11:[["children",{"s":"usage","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}]}]]}],"p":"$@12","v":"$10","s":"$6"},"c":"$Q13"}]]
+e:[["children",{"s":"docs","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}]}]]}],"p":"$@f","v":"$10","s":"$6"},"c":"$Q11"}]]
+7:[["children",{"s":"(site)","h":96,"d":{"r":["$","$1","c",{"children":[[["$","script","script-0",{"src":"/_next/static/chunks/2dzaqtdh8l43l.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/137w225v8ub7l.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/11qomxq_wf1bq.js","async":true}]],["$","div",null,{"className":"flex w-full flex-col md:flex-row","children":[["$","$Lb",null,{}],["$","main",null,{"className":"min-w-0 flex-1 px-5 pt-8 pb-24 md:px-10 md:pt-16 xl:px-12","children":["$","div",null,{"className":"mx-auto flex w-full max-w-[860px] flex-col gap-5","children":["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":"$0:t:t:d:r:props:children:1:props:children:props:children:props:notFound:0:1:props:style","children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":"$0:t:t:d:r:props:children:1:props:children:props:children:props:notFound:0:1:props:children:props:children:1:props:style","children":404}],["$","div",null,{"style":"$0:t:t:d:r:props:children:1:props:children:props:children:props:notFound:0:1:props:children:props:children:2:props:style","children":["$","h2",null,{"style":"$0:t:t:d:r:props:children:1:props:children:props:children:props:notFound:0:1:props:children:props:children:2:props:children:props:style","children":"This page could not be found."}]}]]}]}]],[]]}]}]}],["$","$Lc",null,{}]]}]]}],"p":"$@d","v":null,"s":"$6"},"c":"$Qe"}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2v9xvkzzw385g.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/20d-6pqvf3sop.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/318vd_uhd1odi.js","async":true}]],["$","html",null,{"lang":"zh-CN","className":"dark NzZ7Ta_variable sTc8JG_variable uTNg0a_variable","data-theme":"dark","children":["$","body",null,{"className":"min-h-dvh bg-background text-foreground typo-body-14-400","children":["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}]}]]}],"p":"$@5","v":null,"s":"$6"},"c":"$Q7"},"h":{"r":["$","$1","h",{"children":[null,["$","$L1f",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L21",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$22",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"DomoAI Design System"}],["$","meta","1",{"name":"description","content":"DomoAI Design System V3.0 — tokens & components"}],["$","meta","2",{"name":"robots","content":"noindex, nofollow"}],["$","link","3",{"rel":"icon","href":"/icon.svg?icon.1s8-v9i8ac_u0.svg","sizes":"any","type":"image/svg+xml"}],["$","$L23","4",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@24","v":null,"s":"$6"}},"a":"$@25","u":"$@26","b":"iPPgB_Sa1KgPic1tmW25y"}
+27:I[96559,["$2"],"OutletBoundary"]
+16:["$","h2",null,{"id":"config","className":"mt-8 scroll-mt-20 typo-heading-24-500 text-foreground","children":"3. Next.js 配置"}]
+17:["$","$L15",null,{"code":"// next.config.ts\nexport default { transpilePackages: [\"@domoai/ui\", \"@domoai/icons\", \"@domoai/tokens\"] };"}]
+18:["$","h2",null,{"id":"use","className":"mt-8 scroll-mt-20 typo-heading-24-500 text-foreground","children":"4. 使用组件"}]
+19:["$","$L15",null,{"code":"import { Button } from \"@domoai/ui\";\nimport { CubeLineIcon } from \"@domoai/icons\";\n\n<Button variant=\"primary\" startIcon={<CubeLineIcon />}>Generate</Button>"}]
+1a:["$","p",null,{"className":"typo-body-14-400 text-foreground-secondary","children":["组件只从 ",["$","code",null,{"className":"rounded-sm bg-default px-1.5 py-0.5 typo-code-12-400 text-foreground","children":"@domoai/ui"}]," 引入，不要直接引入 HeroUI。"]}]
+1b:["$","script","script-0",{"src":"/_next/static/chunks/2f5359et898au.js","async":true}]
+1c:["$","$L27",null,{"children":["$","$22",null,{"name":"Next.MetadataOutlet","children":"$@28"}]}]
+6:300
+28:null
+26:true
+6:C
+25:0
+12:"$undefined"
+f:"$undefined"
+d:"$undefined"
+5:"$undefined"
+24:"$undefined"
+1d:"$undefined"
